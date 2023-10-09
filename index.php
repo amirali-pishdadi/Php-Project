@@ -1,18 +1,12 @@
+<?php 
 
-<html lang="en">
+$Name = "Amirali";
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+$Family = "Pishdadi";
 
-<body>
-    <?php
-    
-    echo "i am amirali pishdadi in github ..."
-    
-    ?>
-</body>
+echo "My name is $Name $Family";
 
-</html>
+echo 25 * 25
+
+
+?>
