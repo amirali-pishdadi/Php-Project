@@ -4,9 +4,10 @@ $Name = "Amirali";
 
 $Family = "Pishdadi";
 
-echo "My name is $Name $Family";
+$type = 15151;
 
-echo 25 * 25
+echo "My name is \n $Name $Family";
 
+var_dump($type);
 
 ?>
