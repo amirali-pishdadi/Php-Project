@@ -8,7 +8,7 @@
 
 ## This is my first php project with tailwind
 
-** there are some simple project in (Simple_Project) folder **
+there are some simple project in (Simple_Project) folder
 
-** I hope you enjoy it **
-** Please star ⭐ **
+- I hope you enjoy it
+- Please star ⭐ **
