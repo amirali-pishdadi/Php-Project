@@ -1,4 +1,5 @@
-
+<!-- Note -->
+<!-- You can enter a number and your number is equal to the random number if you are lucky person  -->
 <?php
 $user_number = 0;
 $random_number = 0;

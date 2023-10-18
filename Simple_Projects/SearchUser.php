@@ -1,3 +1,6 @@
+<!-- Note -->
+<!-- you can search a letter or name and you can see the names (iranian names) with it letter or name   -->
+
 <?php
 // names
 $file = fopen('./persian-first-names.txt', 'r');
