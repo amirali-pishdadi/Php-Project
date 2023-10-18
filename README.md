@@ -11,4 +11,4 @@
 there are some simple project in (Simple_Project) folder
 
 - I hope you enjoy it
-- Please star ⭐ **
+- Please star ⭐ 
