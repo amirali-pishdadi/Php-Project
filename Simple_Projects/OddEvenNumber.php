@@ -5,9 +5,8 @@ $list = [];
 $odd = [];
 
 $even = [];
-
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    $user_number = $_GET["user_number"];
+    $user_number = isset($_GET["user_number"]) ? $_GET["user_number"] : 0 ;
 }
 
 
