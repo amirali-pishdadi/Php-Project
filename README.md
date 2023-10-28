@@ -1,7 +1,5 @@
 # PHP Project
 
-![PHP Project](https://your_image_link_here.png) <!-- You can replace with an image showcasing your project -->
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/amirali-pishdadi/Php-Project)](https://github.com/amirali-pishdadi/Php-Project/issues)
 [![GitHub stars](https://img.shields.io/github/stars/amirali-pishdadi/Php-Project)](https://github.com/amirali-pishdadi/Php-Project/stargazers)
