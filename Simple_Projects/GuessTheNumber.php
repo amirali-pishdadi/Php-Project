@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     </div>
     <div class="flex py-4 justify-center items-center">
     <form class="flex" method="GET" action="">
-        <input class="focus:outline-dashed bg-gradient-to-r from-white to-gray-500 px-2 py-1.5 w-56 rounded-lg text-black text-lg" type="number" name="user_number" placeholder="Enter your number" max="<?php echo $max; ?>"
+focus:outline-dashed bg-gradient-to-r from-white to-gray-500 px-2 py-1.5 w-56 rounded-lg text-black text-lg        <input class="" type="number" name="user_number" placeholder="Enter your number" max="<?php echo $max; ?>"
             min="<?php echo $min; ?>">
         <button class="mx-2 px-6 flex-1 rounded-lg border-black outline-double py-1 font-semibold text-sm" type="submit">Submit</button>
     </form>

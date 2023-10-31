@@ -9,7 +9,7 @@ function generatePassword(int $length = 8)
         $random = rand(0, $charactersCount - 1);
         $password .= $characters[$random];
 
-    }
+    }                   
     return $password;
 
 }
