@@ -69,6 +69,7 @@ if (isset($_POST["calculate"])) {
     $result = Calculator($operation, $number1, $number2);
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,28 +80,26 @@ if (isset($_POST["calculate"])) {
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-slate-800 h-screen flex justify-center items-center">
+<body class="bg-gray-200 h-screen flex justify-center items-center">
     <div class="bg-white p-8 rounded-lg">
         <h1 class="text-2xl mb-4">PHP Calculator</h1>
         <form class="" action="" method="post">
-            <input class="flex px-5 py-2.5 my-2 border-2 border-blue-600 rounded-md w-full" name="number1"
+            <input class="w-full p-2 mb-4 border" name="number1"
                 placeholder="Number 1" type="number" required>
-            <input class="flex px-5 py-2.5 my-2 border-2 border-blue-600 rounded-md w-full" name="number2"
+            <input class="w-full p-2 mb-4 border" name="number2"
                 placeholder="Number 2" type="number" required>
 
-            <select name="operation" id="" class="w-full border-2 border-blue-600 p-2 my-2 rounded-md">
+            <select name="operation" id="" class="w-full p-2 mb-4 border">
                 <option value="su">Sum (+)</option>
                 <option value="mi">Minus (-)</option>
                 <option value="mu">Multiplication (*)</option>
                 <option value="di">Division (/)</option>
             </select>
-            <button class="w-full flex justify-center items-center p-2 bg-blue-600 rounded-md" type="submit"
+            <button class="w-full bg-yellow-300 text-yellow-700 p-2 rounded" type="submit"
                 name="calculate">Calculate</button>
         </form>
         <p class="flex my-2 p-2 w-full rounded-md bg-red-400 justify-center items-center">Result =
-            <?php echo $result ?>
+            <?php echo isset($result) ? $result : 0 ?>
         </p>
     </div>
 </body>
-
-</html>
