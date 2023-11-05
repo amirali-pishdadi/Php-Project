@@ -52,7 +52,7 @@ if (isset($_POST['city_name'])) {
     </div>
     <div class="flex justify-center items-center">
         <div
-            class="flex justify-center items-center flex-col self-center p-8 rounded-md w-60 sm:px-12 dark:bg-gray-900 dark:text-gray-100">
+            class="flex justify-center items-center flex-col self-center p-8 rounded-md w-60 max-[450px]:w-full sm:px-12 dark:bg-gray-900 dark:text-gray-100 mx-6">
             <div class="text-center">
                 <h2 class="text-xl font-semibold">
                     <?php echo isset($result_data["name"]) ? $result_data["name"] : "None"; ?>
@@ -61,7 +61,7 @@ if (isset($_POST['city_name'])) {
                     <?php echo isset($result_data["time"]) ? $result_data["time"] : "None"; ?>
                 </p>
             </div>
-            <img src="<?php echo isset($result_data["icon"]) ? $result_data["icon"] : "None"; ?>"
+            <img src="<?php echo isset($result_data["icon"]) ? $result_data["icon"] : "./none-1.svg"; ?>"
                 class="w-36 h-36 p-3 dark:text-yellow-400 fill-current" alt="">
             <div class="mb-2 text-3xl font-semibold">
                 <?php echo isset($result_data["temp"]) ? $result_data["temp"] : "None"; ?>°
