@@ -1,6 +1,6 @@
 <?php
 
-function Sum(...$numbers): int
+function Sum(...$numbers): float
 {
     $sum = 0;
     for ($i = 0; $i < count($numbers); $i++) {
@@ -10,7 +10,7 @@ function Sum(...$numbers): int
     }
     return $sum;
 }
-function Minus(...$numbers): int
+function Minus(...$numbers): float
 {
     $minus = $numbers[0];
     for ($i = 1; $i < count($numbers); $i++) {
@@ -20,7 +20,7 @@ function Minus(...$numbers): int
     }
     return $minus;
 }
-function Multiplication(...$numbers): int
+function Multiplication(...$numbers): float
 {
     $multiplication = 1;
     for ($i = 0; $i < count($numbers); $i++) {
@@ -85,9 +85,9 @@ if (isset($_POST["calculate"])) {
         <h1 class="text-2xl mb-4">PHP Calculator</h1>
         <form class="" action="" method="post">
             <input class="w-full p-2 mb-4 border" name="number1"
-                placeholder="Number 1" type="number" required>
+                placeholder="Number 1" type="number" step="0.00000001" required>
             <input class="w-full p-2 mb-4 border" name="number2"
-                placeholder="Number 2" type="number" required>
+                placeholder="Number 2" type="number" step="0.00000001" required>
 
             <select name="operation" id="" class="w-full p-2 mb-4 border">
                 <option value="su">Sum (+)</option>
